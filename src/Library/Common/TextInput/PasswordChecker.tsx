@@ -1,0 +1,104 @@
+"use client";
+import React, { FunctionComponent, useEffect, useState } from "react";
+import styled from "styled-components";
+import { Flexbox } from "../Grids/Grids";
+import styles from "../Grids/Spaces.module.css";
+import { Paragraph } from "../Typograhy/Typography";
+
+const Ptag = styled(Paragraph)`
+	margin-inline-start: 0.5rem;
+`;
+
+interface PasswordRequirement {
+	name: string;
+	test: (pw: string) => boolean;
+	title: string;
+}
+
+const requirementsList: PasswordRequirement[] = [
+	{ name: "length", test: (pw: string) => pw.length >= 10, title: "At least 10 characters long" },
+	{
+		name: "uppercase",
+		test: (pw: string) => /[A-Z]/.test(pw),
+		title: "Contains at least 1 uppercase letter",
+	},
+	{
+		name: "lowercase",
+		test: (pw: string) => /[a-z]/.test(pw),
+		title: "Contains at least 1 lowercase letter",
+	},
+	{ name: "numbers", test: (pw: string) => /[0-9]/.test(pw), title: "Contains at least 1 number" },
+	{
+		name: "symbols",
+		test: (pw: string) => /[!@#$%^&*]/.test(pw),
+		title: "Container at least 1 special character (!@#$%^&*)",
+	},
+];
+
+interface MatcherProps {
+	title: string;
+	value: boolean;
+}
+
+interface PasswordCheckerProps {
+	password?: string;
+}
+
+const Matcher: FunctionComponent<MatcherProps> = ({ title, value }) => {
+	return (
+		<>
+			<Flexbox className={styles.marginBottom8} $align={"center"}>
+				<svg
+					width="16"
+					height="16"
+					viewBox="0 0 16 16"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<g clipPath="url(#clip0_357_2)">
+						<path
+							d="M7 10.707L4.5 8.2065L5.2065 7.5L7 9.293L10.7925 5.5L11.5 6.2075L7 10.707Z"
+							fill={value ? "#07B262" : "#565454"}
+						/>
+						<path
+							d="M8 1C6.61553 1 5.26216 1.41054 4.11101 2.17971C2.95987 2.94888 2.06266 4.04213 1.53285 5.32122C1.00303 6.6003 0.86441 8.00777 1.13451 9.36563C1.4046 10.7235 2.07129 11.9708 3.05026 12.9497C4.02922 13.9287 5.2765 14.5954 6.63437 14.8655C7.99224 15.1356 9.3997 14.997 10.6788 14.4672C11.9579 13.9373 13.0511 13.0401 13.8203 11.889C14.5895 10.7378 15 9.38447 15 8C15 6.14348 14.2625 4.36301 12.9497 3.05025C11.637 1.7375 9.85652 1 8 1ZM8 14C6.81332 14 5.65328 13.6481 4.66658 12.9888C3.67989 12.3295 2.91085 11.3925 2.45673 10.2961C2.0026 9.19974 1.88378 7.99334 2.11529 6.82946C2.3468 5.66557 2.91825 4.59647 3.75736 3.75736C4.59648 2.91824 5.66558 2.3468 6.82946 2.11529C7.99335 1.88378 9.19975 2.0026 10.2961 2.45672C11.3925 2.91085 12.3295 3.67988 12.9888 4.66658C13.6481 5.65327 14 6.81331 14 8C14 9.5913 13.3679 11.1174 12.2426 12.2426C11.1174 13.3679 9.5913 14 8 14Z"
+							fill={value ? "#07B262" : "#565454"}
+						/>
+					</g>
+					<defs>
+						<clipPath id="clip0_357_2">
+							<rect width="16" height="16" fill="white" />
+						</clipPath>
+					</defs>
+				</svg>
+				<Ptag color={value ? "success" : "secondary"}>{title}</Ptag>
+			</Flexbox>
+		</>
+	);
+};
+
+const PasswordChecker: FunctionComponent<PasswordCheckerProps> = ({
+	password,
+}: {
+	password?: string;
+}) => {
+	const [requirements, setRequirements] = useState<Record<string, boolean>>({});
+
+	useEffect(() => {
+		const newRequirements: Record<string, boolean> = {};
+		requirementsList.forEach(
+			(req: PasswordRequirement) => (newRequirements[req.name] = req.test(password || "")),
+		);
+		setRequirements(newRequirements);
+	}, [password]);
+
+	return (
+		<div className={`${styles.marginTop16} ${styles.marginBottom16}`}>
+			{requirementsList.map((req: PasswordRequirement) => (
+				<Matcher key={req.name} title={req.title} value={requirements[req.name]} />
+			))}
+		</div>
+	);
+};
+
+export default PasswordChecker;

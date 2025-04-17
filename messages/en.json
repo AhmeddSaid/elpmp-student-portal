@@ -1,0 +1,234 @@
+{
+  "Profile": {
+    "Header": "Profile",
+    "Body": "Manage and update your Uxcel account info",
+    "ChangeImageButton": "Change",
+    "Form": {
+      "FormInputs": {
+        "Input1": {
+          "Label": "name",
+          "PlaceHolder": "placeholder"
+        },
+        "Input2": {
+          "Label": "Email",
+          "PlaceHolder": "placeholder"
+        },
+        "Input3": {
+          "Label": "phone number",
+          "PlaceHolder": "placeholder"
+        }
+      },
+      "FormSelectOptions": {
+        "LanguageSelectOption": {
+          "Label": "Language",
+          "Options": {
+            "Option1": "Language1",
+            "Option2": "Language2"
+          }
+        },
+        "ThemeSelectOption": {
+          "Label": "Theme",
+          "Options": {
+            "Option1": "Theme1",
+            "Option2": "Theme2"
+          }
+        },
+        "CurrencySelectOption": {
+          "Label": "Currency",
+          "Options": {
+            "Option1": "Currency1",
+            "Option2": "Currency2"
+          }
+        }
+      },
+      "FormButtonBody": "save"
+    }
+  },
+  "Invoice": {
+    "TableHeader": {
+      "Header1": "Invoice",
+      "Header2": "Total",
+      "Header3": "Date",
+      "Header4": "Details"
+    }
+  },
+  "ChangePassword": {
+    "Header": "Change Password",
+    "Body": "Manage and update your Uxcel account info",
+    "Form": {
+      "FormInputs": {
+        "Input1": {
+          "Label": "Old Password",
+          "PlaceHolder": "placeholder"
+        },
+        "Input2": {
+          "Label": "New Password",
+          "PlaceHolder": "placeholder"
+        },
+        "Input3": {
+          "Label": "Repeat New Password",
+          "PlaceHolder": "placeholder"
+        }
+      },
+      "FormButtonBody": "save"
+    }
+  },
+  "Address": {
+    "Header": "Address",
+    "Body": "Manage and update your Uxcel account info",
+    "Form": {
+      "FormInputs": {
+        "Input1": {
+          "Label": "Address1",
+          "PlaceHolder": "placeholder"
+        },
+        "Input2": {
+          "Label": "Address2",
+          "PlaceHolder": "placeholder"
+        },
+        "Input3": {
+          "Label": "city",
+          "PlaceHolder": "placeholder"
+        },
+        "Input4": {
+          "Label": "state",
+          "PlaceHolder": "placeholder"
+        },
+        "Input5": {
+          "Label": "Zip Code",
+          "PlaceHolder": "placeholder"
+        },
+        "Input6": {
+          "Label": "Company Name",
+          "PlaceHolder": "placeholder"
+        },
+        "Input7": {
+          "Label": "Phone Number",
+          "PlaceHolder": "placeholder"
+        }
+      },
+      "FormSelectOptions": {
+        "LanguageSelectOption": {
+          "Label": "Country",
+          "Options": {
+            "Option1": "Country1",
+            "Option2": "Country2"
+          }
+        }
+      },
+      "FormButtonBody": "save"
+    }
+  },
+  "SocialMedia": {
+    "Header": "social media",
+    "Body": "Manage and update your Uxcel account info",
+    "Form": {
+      "FormInputs": {
+        "Input1": {
+          "Label": "FaceBook",
+          "PlaceHolder": "https://"
+        },
+        "Input2": {
+          "Label": "Twitter / X",
+          "PlaceHolder": "https://"
+        },
+        "Input3": {
+          "Label": "Linkedin",
+          "PlaceHolder": "https://"
+        },
+        "Input4": {
+          "Label": "Instagram",
+          "PlaceHolder": "https://"
+        }
+      },
+      "FormButtonBody": "save"
+    }
+  },
+  "Students": {
+    "TableHeader": {
+      "Header1": "Student",
+      "Header2": "Last Login",
+      "Header3": "Joined",
+      "Header4": "LTV",
+      "Header5": "Tenant"
+    }
+  },
+  "Invoices": {
+    "Heading": "Invoices",
+    "Body": "Subtitle",
+    "TableHeader": {
+      "Header1": "Invoice",
+      "Header2": "Total",
+      "Header3": "Date",
+      "Header4": "Details"
+    }
+  },
+  "Promo": {
+    "TableHeader": {
+      "Header1": "promo code",
+      "Header2": "created at",
+      "Header3": "expired",
+      "Header4": "enabled",
+      "Header5": "usages"
+    }
+  },
+  "Tags": {
+    "Heading": "Tags",
+    "Body": "sub title",
+    "Button": "Add",
+    "TableHeader": {
+      "Header1": "promo code",
+      "Header2": "created at",
+      "Header3": "expired",
+      "Header4": "enabled",
+      "Header5": "usages"
+    }
+  },
+  "Exam": {
+    "Title": "Exam Title",
+    "Body": "Improve your design skills through interactive, hands-on professional courses.",
+    "ExamOption": {
+      "Option1": "All",
+      "Option2": "Enrolled",
+      "Option3": "For you"
+    }
+  },
+  "Exam2": {
+    "Title": "Exam Title",
+    "Body": "Improve your design skills through interactive, hands-on professional courses.",
+    "ExamOption": {
+      "Option1": "All",
+      "Option2": "Passed",
+      "Option3": "Failed"
+    },
+    "StartExamButton": "Start Exam"
+  },
+  "Setting": {
+    "SettingSideBar": {
+      "Label": "Dashboard",
+      "SideBarItems": {
+        "Item1": "Profile",
+        "Item2": "Invoice",
+        "Item3": "Password",
+        "Item4": "Address",
+        "Item5": "Social",
+        "Item6": "Notification",
+        "Item7": "Subscription"
+      }
+    }
+  },
+  "Login": {
+    "Heading": "Login",
+    "Body": "Connect with industry leaders, access exclusive resources, and land your dream job with ELPMP.COM. Free sign up, endless possibilities."
+  }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,231 @@
+{
+  "Profile": {
+    "Header": "الملف الشخصي",
+    "Body": "إدارة وتحديث معلومات حسابك في Uxcel",
+    "ChangeImageButton": "تغيير",
+    "Form": {
+      "FormInputs": {
+        "Input1": {
+          "Label": "الاسم",
+          "PlaceHolder": "placeholder"
+        },
+        "Input2": {
+          "Label": "البريد الإلكتروني",
+          "PlaceHolder": "placeholder"
+        },
+        "Input3": {
+          "Label": "رقم الهاتف",
+          "PlaceHolder": "placeholder"
+        }
+      },
+      "FormSelectOptions": {
+        "LanguageSelectOption": {
+          "Label": "اللغة",
+          "Options": {
+            "Option1": "اللغة 1",
+            "Option2": "اللغة 2"
+          }
+        },
+        "ThemeSelectOption": {
+          "Label": "المظهر",
+          "Options": {
+            "Option1": "المظهر 1",
+            "Option2": "المظهر 2"
+          }
+        },
+        "CurrencySelectOption": {
+          "Label": "العملة",
+          "Options": {
+            "Option1": "العملة 1",
+            "Option2": "العملة 2"
+          }
+        }
+      },
+      "FormButtonBody": "حفظ"
+    }
+  },
+  "Invoice": {
+    "TableHeader": {
+      "Header1": "فاتورة",
+      "Header2": "المجموع",
+      "Header3": "التاريخ",
+      "Header4": "التفاصيل"
+    }
+  },
+  "ChangePassword": {
+    "Header": "تغيير كلمة المرور",
+    "Body": "إدارة وتحديث معلومات حسابك في Uxcel",
+    "Form": {
+      "FormInputs": {
+        "Input1": {
+          "Label": "كلمة المرور القديمة",
+          "PlaceHolder": "placeholder"
+        },
+        "Input2": {
+          "Label": "كلمة المرور الجديدة",
+          "PlaceHolder": "placeholder"
+        },
+        "Input3": {
+          "Label": "إعادة كلمة المرور الجديدة",
+          "PlaceHolder": "placeholder"
+        }
+      },
+      "FormButtonBody": "حفظ"
+    }
+  },
+  "Address": {
+    "Header": "العنوان",
+    "Body": "إدارة وتحديث معلومات حسابك في Uxcel",
+    "Form": {
+      "FormInputs": {
+        "Input1": {
+          "Label": "العنوان 1",
+          "PlaceHolder": "placeholder"
+        },
+        "Input2": {
+          "Label": "العنوان 2",
+          "PlaceHolder": "placeholder"
+        },
+        "Input3": {
+          "Label": "المدينة",
+          "PlaceHolder": "placeholder"
+        },
+        "Input4": {
+          "Label": "المحافظة",
+          "PlaceHolder": "placeholder"
+        },
+        "Input5": {
+          "Label": "الرمز البريدي",
+          "PlaceHolder": "placeholder"
+        },
+        "Input6": {
+          "Label": "اسم الشركة",
+          "PlaceHolder": "placeholder"
+        },
+        "Input7": {
+          "Label": "رقم الهاتف",
+          "PlaceHolder": "placeholder"
+        }
+      },
+      "FormSelectOptions": {
+        "LanguageSelectOption": {
+          "Label": "البلد",
+          "Options": {
+            "Option1": "بلد 1",
+            "Option2": "بلد 2"
+          }
+        }
+      },
+      "FormButtonBody": "حفظ"
+    }
+  },
+  "SocialMedia": {
+    "Header": "وسائط التواصل الاجتماعي",
+    "Body": "إدارة وتحديث معلومات حسابك في Uxcel",
+    "Form": {
+      "FormInputs": {
+        "Input1": {
+          "Label": "فيسبوك",
+          "PlaceHolder": "https://"
+        },
+        "Input2": {
+          "Label": "تويتر / X",
+          "PlaceHolder": "https://"
+        },
+        "Input3": {
+          "Label": "لينكدين",
+          "PlaceHolder": "https://"
+        },
+        "Input4": {
+          "Label": "إنستغرام",
+          "PlaceHolder": "https://"
+        }
+      },
+      "FormButtonBody": "حفظ"
+    }
+  },
+  "Students": {
+    "TableHeader": {
+      "Header1": "الطالب",
+      "Header2": "آخر تسجيل دخول",
+      "Header3": "انضم",
+      "Header4": "LTV",
+      "Header5": "المستأجر"
+    }
+  },
+  "Invoices": {
+    "Heading": "الفواتير",
+    "Body": "العنوان الفرعي",
+    "TableHeader": {
+      "Header1": "فاتورة",
+      "Header2": "المجموع",
+      "Header3": "التاريخ",
+      "Header4": "التفاصيل"
+    }
+  },
+  "Promo": {
+    "TableHeader": {
+      "Header1": "رمز الترويج",
+      "Header2": "تم إنشاؤه في",
+      "Header3": "منتهي الصلاحية",
+      "Header4": "مفعّل",
+      "Header5": "الاستخدامات"
+    }
+  },
+  "Tags": {
+    "Heading": "الوسم",
+    "Body": "العنوان الفرعي",
+    "Button": "إضافة",
+    "TableHeader": {
+      "Header1": "رمز الترويج",
+      "Header2": "تم إنشاؤه في",
+      "Header3": "منتهي الصلاحية",
+      "Header4": "مفعّل",
+      "Header5": "الاستخدامات"
+    }
+  },
+  "Exam": {
+    "Title": "عنوان الامتحان",
+    "Body": "حسّن مهارات التصميم الخاصة بك من خلال الدورات المهنية التفاعلية العملية.",
+    "ExamOption": {
+      "Option1": "الكل",
+      "Option2": "مسجل",
+      "Option3": "لاجلك"
+    }
+  },
+  "Exam2": {
+    "Title": "عنوان الامتحان",
+    "Body": "حسّن مهارات التصميم الخاصة بك من خلال الدورات المهنية التفاعلية العملية.",
+    "ExamOption": {
+      "Option1": "الكل",
+      "Option2": "ناجح",
+      "Option3": "راسب"
+    },
+    "StartExamButton": "بدء الامتحان"
+  },
+  "Setting": {
+    "SettingSideBar": {
+      "Label": "لوحة التحكم",
+      "SideBarItems": {
+        "Item1": "الملف الشخصي",
+        "Item2": "فاتورة",
+        "Item3": "كلمة المرور",
+        "Item4": "العنوان",
+        "Item5": "الاجتماعي",
+        "Item6": "الإشعارات",
+        "Item7": "الاشتراك"
+      }
+    }
+  },
+  "Login": {
+    "Heading": "تسجيل الدخول",
+    "Body": "اتصل بقيادات الصناعة، واطلع على الموارد الحصرية، واحصل على وظيفتك الحلم مع ELPMP.COM. التسجيل المجاني، إمكانيات لا نهاية لها."
+  }
+}
+
+
+
+
+
+
+
